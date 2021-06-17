@@ -1,0 +1,125 @@
+body {
+  background-image: url(background.jpg);
+  background-position: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+.header {
+  background-color: rgba(248, 247, 246, 1);
+  padding: 1.5rem;
+  color: black;
+  font-weight: bold;
+  top: 0;
+}
+.compose {
+  position: absolute;
+  right: 4rem;
+}
+.body {
+  position: relative;
+}
+.side-bar {
+  padding: 1rem;
+  background-color: rgba(221, 223, 224, 0.2);
+  height: 100vh;
+  color: white;
+  font-weight: bold;
+}
+.side-bar td {
+  padding: 1.5rem;
+}
+td span:hover {
+  color: rgb(224, 219, 219);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#app-body {
+  background: rgba(248, 238, 228, 0.5);
+  padding: 0.5rem 0;
+  position: relative;
+  /* overflow-y: scroll; */
+}
+.display-box {
+  color: black;
+  background: rgb(248, 247, 246);
+  padding: 0.5rem;
+  margin: 0.4rem 0;
+  width: 100%;
+}
+.compose-email {
+  display: none;
+  position: absolute;
+  background: white;
+  bottom: 0px;
+  right: 2rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 5px;
+}
+.emailhead {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 0.4rem;
+}
+.recepient input,
+.subject input {
+  width: 97%;
+  margin: 0.4rem;
+  border: none;
+  border-bottom: 1px solid rgb(216, 214, 214);
+}
+.email-body {
+  height: max-content;
+}
+#emailBody {
+  position: relative;
+  width: 97%;
+  margin: 0.4rem;
+  border: none;
+}
+.email-footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 0.4rem;
+}
+#minimize {
+  position: absolute;
+  color: black;
+  right: 1rem;
+  top: 0;
+}
+.minimize-box {
+  position: absolute;
+  width: 100%;
+  color: black;
+  bottom: 0;
+  display: none;
+}
+.login-page {
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+}
+.form-adjust {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  top: 30%;
+}
+.error {
+  color: red;
+  display: none;
+}
+#spinner {
+  position: absolute;
+  z-index: 100;
+  background: rgb(143, 141, 141);
+  width: 5rem;
+  height: 5rem;
+  display: none;
+}
